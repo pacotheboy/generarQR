@@ -18,5 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+#Creamos el QR
 Route::get('generarQR', [QrController::class, 'index'])->name('generarqr');
